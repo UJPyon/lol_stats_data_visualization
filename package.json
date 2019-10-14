@@ -1,10 +1,13 @@
 {
   "name": "lol_data_visualization",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Background and Overview     * Motivation for project       * League of Legends is one of my favorite games to play; it's a fun, competitive game that requires skill, teamwork, and strategy to win. It also presents an excellent opportunity to analyze data from winning teams to help become better players. One of the most crucial aspects of winning a game in League of Legends is vision wards, which reveal small areas of the map and allow for monitoring of enemy players and objectives.      * High level overview       * Users will be able to review and observe patterns of ward placement in a sample selection of matches ranging from the lowest tier of ranked play (iron tier) to the highest level tier (challenger tier). This mapping of data will hopefully show how locations and numbers of vision wards differ from low-level play vs. high level play. The breakdown of each role and their contribution to vision control of the map will also be graphed to show which roles typically contribute most to the success of vision control at each level of play.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "webpack:watch": "webpack --watch --config webpack.dev.js",
+    "webpack:build": "webpack --config webpack.prod.js  --optimize-minimize"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +15,27 @@
   "devDependencies": {
     "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9"
-  }
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.6.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "fibers": "^4.0.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
