@@ -8,13 +8,13 @@
 
 ## Functionality and MVP Features
   * Users will be able to:
-    * See a heat map of ward placement on the game map by both the winning and losing team
-    * Switch between 9 rank tiers to see how map data changes over different levels of competitive play
-    * See a graph of individual role contributions to vision control (wards placed, wards destroyed)
-    * Graph of winning vs. losing team vision scores
+    * Switch between comarisons of all 9 rank tiers to see how the map data changes over different levels of competitive play
+    * See a comparison of two heat/density maps of average ward placements on the game map by two different tier classes
+    * See a graph comparing average vision scores for two selected tier classes
+    * See a bar graph of individual role contributions to vision control (wards placed, wards destroyed)
 
 ## Wireframes
-  * The app will consist of a large top-down map of the game on the right side, two separate line graphs (one for data on each team) on the left side, and an upper navbar of different league tiers to change the data being visualized in both the line graphs and game map. 
+  * The app will consist of two top-down maps of the game at the bottom with two separate line graphs (one for data on each tier). There will be an upper navbar of different league tiers to change the data being visualized in both the line graphs and game map. 
 
   ![lol ward placement data visualization wireframe](assets/images/lol_ward_placement_data_visualization_wireframe.png)
 
@@ -22,7 +22,7 @@
   * This project will implement the following technologies:
     * Vanilla JavaScript for data management
     * Riot Games Developer API used for fetching relevant game data 
-    * Heatmap.js JavaScript library to visualize the game data
+    * D3 JavaScript library to visualize the game data
     * Webpack to bundle up and present the various javascript files
 
 ## Implementation Timeline
@@ -32,7 +32,7 @@
     * Go over how to map data via D3 tutorials
   * Day 2:
     * Shape JSON information to retrieve only data relevant to ward placement
-    * Learn how to utilize heatmap.js library to map ward location data onto game map
+    * Learn how to utilize D3 library to map ward location data onto game map via a heat map or density map
   * Day 3:
     * Retrieve JSON information to create line graphs of relevant team data (ie. overall team vision scores)
     * Extend line graph to include individual role vision contribution data
