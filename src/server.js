@@ -2,9 +2,9 @@ const https = require('https');
 const http = require('http');
 const PORT = 8080;
 const server = http.createServer((request, response) => {callAPI(response);});
-const apiKey = "RGAPI-d8ae1ad3-fb54-4ba5-8bfc-c2945b514e78";
+const apiKey = "enter api key here";
 // ENTER LOL MATCH TO FETCH DATA FROM BELOW:
-const matchId = "3174752772";
+const matchId = "enter match ID here";
 const url = `https://na1.api.riotgames.com/lol/match/v4/timelines/by-match/${matchId}?api_key=` + apiKey;
 
 server.listen(PORT, () => console.log("Server is listening on port %s", PORT));
