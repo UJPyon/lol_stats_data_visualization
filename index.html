@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>aa.op.gg</title>
   <script src="./src/index.js"></script>
+  <script src="https://d3js.org/d3.v5.js"></script>
 </head>
+
 <body>
-  
+  <header>League: Better Wards</header>
+  <!-- Page elements and content will go here -->
+  <script>
+    // D3 code will go here
+
+    // Width and Height of the whole visualization
+      var width = 500;
+      var height = 500;
+
+    // Create SVG
+    var svg = d3.select("body")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+    // Append empty placeholder g element to the SVG
+    // g will contain geometry elements
+    var g = svg.append("g");
+  </script>
 </body>
+
 </html>
+
+<!-- aa.op.gg -->
