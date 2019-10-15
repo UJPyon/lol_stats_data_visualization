@@ -14,7 +14,7 @@
     * See a bar graph of individual role contributions to vision control (wards placed, wards destroyed)
 
 ## Wireframes
-  * The app will consist of two top-down maps of the game at the bottom with two separate line graphs (one for data on each tier). There will be an upper navbar of different league tiers to change the data being visualized in both the line graphs and game map. 
+  * The app will consist of two top-down maps of the game at the bottom with two separate line graphs (one for data on each tier). There will be a navbar above each map of all the league tiers to change the data being visualized in both the line graphs and game map. 
 
   ![lol ward placement data visualization wireframe](assets/images/lol_ward_placement_data_visualization_wireframe.png)
 
