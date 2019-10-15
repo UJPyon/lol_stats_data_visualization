@@ -1,0 +1,1935 @@
+// match id: 3174644616
+export const game1 = [
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 162076,
+    position: {
+      x: 2853,
+      y: 12575
+    },
+    killerId: 5,
+    victimId: 7,
+    assistingParticipantIds: [4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 166738,
+    position: {
+      x: 6890,
+      y: 7471
+    },
+    killerId: 3,
+    victimId: 6,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 278746,
+    position: {
+      x: 11847,
+      y: 3290
+    },
+    killerId: 2,
+    victimId: 9,
+    assistingParticipantIds: [1]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 280563,
+    position: {
+      x: 1586,
+      y: 11996
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 286178,
+    position: {
+      x: 13240,
+      y: 3375
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: [1]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 308811,
+    position: {
+      x: 4567,
+      y: 14012
+    },
+    killerId: 5,
+    victimId: 7,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 309736,
+    position: {
+      x: 4764,
+      y: 14004
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 383818,
+    position: {
+      x: 1791,
+      y: 11923
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 425971,
+    position: {
+      x: 8977,
+      y: 8322
+    },
+    killerId: 3,
+    victimId: 6,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 468781,
+    position: {
+      x: 5678,
+      y: 11457
+    },
+    killerId: 10,
+    victimId: 5,
+    assistingParticipantIds: [7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 478922,
+    position: {
+      x: 3432,
+      y: 10334
+    },
+    killerId: 6,
+    victimId: 3,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 487875,
+    position: {
+      x: 5125,
+      y: 9292
+    },
+    killerId: 6,
+    victimId: 4,
+    assistingParticipantIds: [7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 548398,
+    position: {
+      x: 6222,
+      y: 9189
+    },
+    killerId: 3,
+    victimId: 10,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 574061,
+    position: {
+      x: 12736,
+      y: 3202
+    },
+    killerId: 9,
+    victimId: 1,
+    assistingParticipantIds: [8]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 586121,
+    position: {
+      x: 7181,
+      y: 7823
+    },
+    killerId: 3,
+    victimId: 6,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 662957,
+    position: {
+      x: 11690,
+      y: 1281
+    },
+    killerId: 9,
+    victimId: 1,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 671512,
+    position: {
+      x: 12432,
+      y: 1739
+    },
+    killerId: 8,
+    victimId: 4,
+    assistingParticipantIds: [9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 736152,
+    position: {
+      x: 3155,
+      y: 12938
+    },
+    killerId: 5,
+    victimId: 7,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 767862,
+    position: {
+      x: 11876,
+      y: 2825
+    },
+    killerId: 10,
+    victimId: 1,
+    assistingParticipantIds: [9, 8]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 771727,
+    position: {
+      x: 11863,
+      y: 3960
+    },
+    killerId: 3,
+    victimId: 10,
+    assistingParticipantIds: [2, 1]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 778497,
+    position: {
+      x: 13611,
+      y: 3493
+    },
+    killerId: 3,
+    victimId: 9,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 860999,
+    position: {
+      x: 2986,
+      y: 13455
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 864400,
+    position: {
+      x: 2976,
+      y: 12925
+    },
+    killerId: 7,
+    victimId: 4,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 892147,
+    position: {
+      x: 10977,
+      y: 1001
+    },
+    killerId: 8,
+    victimId: 1,
+    assistingParticipantIds: [10]
+  }
+];
+
+// match id: 3174644616
+export const game2 = [
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 167048,
+    position: {
+      x: 12892,
+      y: 1852
+    },
+    killerId: 9,
+    victimId: 1,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 216578,
+    position: {
+      x: 7107,
+      y: 6910
+    },
+    killerId: 6,
+    victimId: 3,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 293670,
+    position: {
+      x: 1764,
+      y: 11470
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: [5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 373681,
+    position: {
+      x: 3312,
+      y: 13800
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 403508,
+    position: {
+      x: 12670,
+      y: 2788
+    },
+    killerId: 10,
+    victimId: 3,
+    assistingParticipantIds: [9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 495939,
+    position: {
+      x: 13095,
+      y: 3752
+    },
+    killerId: 9,
+    victimId: 4,
+    assistingParticipantIds: [6]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 496335,
+    position: {
+      x: 13115,
+      y: 3682
+    },
+    killerId: 3,
+    victimId: 6,
+    assistingParticipantIds: [4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 522502,
+    position: {
+      x: 11950,
+      y: 2261
+    },
+    killerId: 9,
+    victimId: 1,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 531191,
+    position: {
+      x: 10657,
+      y: 1353
+    },
+    killerId: 9,
+    victimId: 3,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 543386,
+    position: {
+      x: 4722,
+      y: 13674
+    },
+    killerId: 8,
+    victimId: 2,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 576290,
+    position: {
+      x: 2592,
+      y: 13018
+    },
+    killerId: 8,
+    victimId: 1,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 733993,
+    position: {
+      x: 2646,
+      y: 12250
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: []
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 736438,
+    position: {
+      x: 1801,
+      y: 12332
+    },
+    killerId: 8,
+    victimId: 2,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 753416,
+    position: {
+      x: 3006,
+      y: 12852
+    },
+    killerId: 6,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 771153,
+    position: {
+      x: 9091,
+      y: 8401
+    },
+    killerId: 3,
+    victimId: 7,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 805853,
+    position: {
+      x: 10243,
+      y: 815
+    },
+    killerId: 9,
+    victimId: 4,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 829867,
+    position: {
+      x: 3671,
+      y: 11326
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 878948,
+    position: {
+      x: 12860,
+      y: 1809
+    },
+    killerId: 10,
+    victimId: 1,
+    assistingParticipantIds: [9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 885455,
+    position: {
+      x: 13566,
+      y: 3938
+    },
+    killerId: 6,
+    victimId: 5,
+    assistingParticipantIds: [9, 10]
+  }
+];
+
+// match id: 3161315161
+export const game3 = [
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 115227,
+    position: {
+      x: 7025,
+      y: 6621
+    },
+    killerId: 9,
+    victimId: 4,
+    assistingParticipantIds: [6, 7, 8]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 119790,
+    position: {
+      x: 5805,
+      y: 5608
+    },
+    killerId: 6,
+    victimId: 5,
+    assistingParticipantIds: [7, 8, 9, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 124383,
+    position: {
+      x: 6185,
+      y: 6691
+    },
+    killerId: 1,
+    victimId: 10,
+    assistingParticipantIds: [3, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 137173,
+    position: {
+      x: 4798,
+      y: 5382
+    },
+    killerId: 9,
+    victimId: 1,
+    assistingParticipantIds: [6, 7, 10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 139388,
+    position: {
+      x: 4935,
+      y: 5606
+    },
+    killerId: 3,
+    victimId: 9,
+    assistingParticipantIds: [1, 2, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 141865,
+    position: {
+      x: 5132,
+      y: 5621
+    },
+    killerId: 4,
+    victimId: 8,
+    assistingParticipantIds: [1, 2, 3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 205337,
+    position: {
+      x: 7307,
+      y: 6527
+    },
+    killerId: 3,
+    victimId: 8,
+    assistingParticipantIds: [1, 2, 4, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 222921,
+    position: {
+      x: 5743,
+      y: 5913
+    },
+    killerId: 6,
+    victimId: 3,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 228404,
+    position: {
+      x: 5798,
+      y: 6249
+    },
+    killerId: 7,
+    victimId: 2,
+    assistingParticipantIds: [6]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 229725,
+    position: {
+      x: 5602,
+      y: 6284
+    },
+    killerId: 5,
+    victimId: 6,
+    assistingParticipantIds: [1, 2, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 234418,
+    position: {
+      x: 6567,
+      y: 6053
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: [9, 10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 235311,
+    position: {
+      x: 6419,
+      y: 6012
+    },
+    killerId: 1,
+    victimId: 7,
+    assistingParticipantIds: [5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 243969,
+    position: {
+      x: 5647,
+      y: 4893
+    },
+    killerId: 8,
+    victimId: 4,
+    assistingParticipantIds: [6, 7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 269193,
+    position: {
+      x: 6226,
+      y: 5863
+    },
+    killerId: 3,
+    victimId: 8,
+    assistingParticipantIds: [1, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 283431,
+    position: {
+      x: 6446,
+      y: 5916
+    },
+    killerId: 2,
+    victimId: 9,
+    assistingParticipantIds: [1, 3, 4, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 319837,
+    position: {
+      x: 7749,
+      y: 6907
+    },
+    killerId: 5,
+    victimId: 10,
+    assistingParticipantIds: [1]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 326317,
+    position: {
+      x: 6437,
+      y: 7069
+    },
+    killerId: 5,
+    victimId: 6,
+    assistingParticipantIds: [1, 2, 3, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 331008,
+    position: {
+      x: 6785,
+      y: 6353
+    },
+    killerId: 8,
+    victimId: 2,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 333457,
+    position: {
+      x: 6271,
+      y: 6019
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: [7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 335933,
+    position: {
+      x: 6297,
+      y: 6051
+    },
+    killerId: 4,
+    victimId: 8,
+    assistingParticipantIds: [1, 3, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 342112,
+    position: {
+      x: 5086,
+      y: 5395
+    },
+    killerId: 9,
+    victimId: 1,
+    assistingParticipantIds: [7, 8]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 343928,
+    position: {
+      x: 7844,
+      y: 7522
+    },
+    killerId: 4,
+    victimId: 7,
+    assistingParticipantIds: []
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 344358,
+    position: {
+      x: 5167,
+      y: 5725
+    },
+    killerId: 5,
+    victimId: 9,
+    assistingParticipantIds: [1, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 372212,
+    position: {
+      x: 5888,
+      y: 5907
+    },
+    killerId: 6,
+    victimId: 4,
+    assistingParticipantIds: [10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 375652,
+    position: {
+      x: 5583,
+      y: 6135
+    },
+    killerId: 6,
+    victimId: 5,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 400993,
+    position: {
+      x: 5352,
+      y: 5449
+    },
+    killerId: 7,
+    victimId: 2,
+    assistingParticipantIds: [6, 8, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 402744,
+    position: {
+      x: 5517,
+      y: 5643
+    },
+    killerId: 3,
+    victimId: 8,
+    assistingParticipantIds: [1, 2]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 416299,
+    position: {
+      x: 7045,
+      y: 6763
+    },
+    killerId: 5,
+    victimId: 10,
+    assistingParticipantIds: [1, 2, 3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 433419,
+    position: {
+      x: 5210,
+      y: 5971
+    },
+    killerId: 9,
+    victimId: 4,
+    assistingParticipantIds: [6, 7]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 434080,
+    position: {
+      x: 5565,
+      y: 6184
+    },
+    killerId: 5,
+    victimId: 6,
+    assistingParticipantIds: [1, 3, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 445446,
+    position: {
+      x: 6572,
+      y: 6066
+    },
+    killerId: 7,
+    victimId: 1,
+    assistingParticipantIds: [8]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 447461,
+    position: {
+      x: 6542,
+      y: 5969
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: [7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 449146,
+    position: {
+      x: 6612,
+      y: 6360
+    },
+    killerId: 2,
+    victimId: 9,
+    assistingParticipantIds: [3, 4, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 453211,
+    position: {
+      x: 6646,
+      y: 6018
+    },
+    killerId: 5,
+    victimId: 8,
+    assistingParticipantIds: [1, 2, 3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 472940,
+    position: {
+      x: 7261,
+      y: 7591
+    },
+    killerId: 5,
+    victimId: 10,
+    assistingParticipantIds: [2]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 489564,
+    position: {
+      x: 5985,
+      y: 6457
+    },
+    killerId: 1,
+    victimId: 9,
+    assistingParticipantIds: [2, 3, 4, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 504003,
+    position: {
+      x: 8586,
+      y: 7824
+    },
+    killerId: 3,
+    victimId: 7,
+    assistingParticipantIds: [1, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 517648,
+    position: {
+      x: 6899,
+      y: 6639
+    },
+    killerId: 6,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 522242,
+    position: {
+      x: 7312,
+      y: 7301
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: [1, 3, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 528224,
+    position: {
+      x: 7105,
+      y: 7013
+    },
+    killerId: 10,
+    victimId: 2,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 571213,
+    position: {
+      x: 5927,
+      y: 6367
+    },
+    killerId: 8,
+    victimId: 1,
+    assistingParticipantIds: [6]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 575412,
+    position: {
+      x: 6009,
+      y: 5673
+    },
+    killerId: 7,
+    victimId: 3,
+    assistingParticipantIds: [6]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 578454,
+    position: {
+      x: 5599,
+      y: 5592
+    },
+    killerId: 7,
+    victimId: 4,
+    assistingParticipantIds: [8, 10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 578487,
+    position: {
+      x: 5859,
+      y: 6100
+    },
+    killerId: 10,
+    victimId: 2,
+    assistingParticipantIds: [7, 8, 9]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 579081,
+    position: {
+      x: 6342,
+      y: 5632
+    },
+    killerId: 5,
+    victimId: 6,
+    assistingParticipantIds: [4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 584928,
+    position: {
+      x: 5107,
+      y: 4804
+    },
+    killerId: 10,
+    victimId: 5,
+    assistingParticipantIds: [6, 7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 632082,
+    position: {
+      x: 5606,
+      y: 4904
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: [8, 10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 632710,
+    position: {
+      x: 5850,
+      y: 5156
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: [1, 3, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 697210,
+    position: {
+      x: 7424,
+      y: 6637
+    },
+    killerId: 2,
+    victimId: 6,
+    assistingParticipantIds: [1, 3, 4, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 702966,
+    position: {
+      x: 5549,
+      y: 5782
+    },
+    killerId: 8,
+    victimId: 4,
+    assistingParticipantIds: [7, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 706273,
+    position: {
+      x: 5321,
+      y: 5201
+    },
+    killerId: 7,
+    victimId: 2,
+    assistingParticipantIds: [8, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 708255,
+    position: {
+      x: 5025,
+      y: 5321
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: [7, 9, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 714401,
+    position: {
+      x: 3777,
+      y: 3342
+    },
+    killerId: 9,
+    victimId: 5,
+    assistingParticipantIds: [6, 10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 718663,
+    position: {
+      x: 3589,
+      y: 3288
+    },
+    killerId: 3,
+    victimId: 8,
+    assistingParticipantIds: [1, 2, 4, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 727785,
+    position: {
+      x: 4889,
+      y: 4216
+    },
+    killerId: 1,
+    victimId: 9,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 750676,
+    position: {
+      x: 4867,
+      y: 4715
+    },
+    killerId: 6,
+    victimId: 2,
+    assistingParticipantIds: [7, 10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 753948,
+    position: {
+      x: 4857,
+      y: 5197
+    },
+    killerId: 4,
+    victimId: 6,
+    assistingParticipantIds: [1, 2]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 769874,
+    position: {
+      x: 7156,
+      y: 8030
+    },
+    killerId: 10,
+    victimId: 1,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 775591,
+    position: {
+      x: 5186,
+      y: 4764
+    },
+    killerId: 7,
+    victimId: 4,
+    assistingParticipantIds: [8, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 781180,
+    position: {
+      x: 3814,
+      y: 4534
+    },
+    killerId: 8,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 795458,
+    position: {
+      x: 3790,
+      y: 3520
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: [7, 9, 10]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 798201,
+    position: {
+      x: 3428,
+      y: 3719
+    },
+    killerId: 9,
+    victimId: 2,
+    assistingParticipantIds: [8, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 815089,
+    position: {
+      x: 3806,
+      y: 3471
+    },
+    killerId: 6,
+    victimId: 1,
+    assistingParticipantIds: [7, 8, 9, 10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 820742,
+    position: {
+      x: 3503,
+      y: 3483
+    },
+    killerId: 10,
+    victimId: 4,
+    assistingParticipantIds: [7, 8]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 824510,
+    position: {
+      x: 2783,
+      y: 1727
+    },
+    killerId: 6,
+    victimId: 5,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 842686,
+    position: {
+      x: 2183,
+      y: 1743
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: [6]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 842719,
+    position: {
+      x: 2525,
+      y: 1665
+    },
+    killerId: 3,
+    victimId: 8,
+    assistingParticipantIds: [2]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 844041,
+    position: {
+      x: 2130,
+      y: 1792
+    },
+    killerId: 2,
+    victimId: 6,
+    assistingParticipantIds: []
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 844173,
+    position: {
+      x: 2107,
+      y: 1640
+    },
+    killerId: 10,
+    victimId: 2,
+    assistingParticipantIds: [6, 8, 9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 880722,
+    position: {
+      x: 7364,
+      y: 6557
+    },
+    killerId: 1,
+    victimId: 7,
+    assistingParticipantIds: [5]
+  }
+];
+
+// match id: 3158555714
+export const game4 = [
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 203210,
+    position: {
+      x: 1870,
+      y: 11948
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: [3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 252454,
+    position: {
+      x: 8227,
+      y: 10145
+    },
+    killerId: 2,
+    victimId: 10,
+    assistingParticipantIds: [5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 276960,
+    position: {
+      x: 8490,
+      y: 12467
+    },
+    killerId: 2,
+    victimId: 9,
+    assistingParticipantIds: [3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 299488,
+    position: {
+      x: 7636,
+      y: 13490
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: [3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 391007,
+    position: {
+      x: 10363,
+      y: 1397
+    },
+    killerId: 4,
+    victimId: 7,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 465660,
+    position: {
+      x: 13003,
+      y: 3282
+    },
+    killerId: 2,
+    victimId: 6,
+    assistingParticipantIds: [1]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 482535,
+    position: {
+      x: 13412,
+      y: 4037
+    },
+    killerId: 1,
+    victimId: 7,
+    assistingParticipantIds: [2]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 497628,
+    position: {
+      x: 7855,
+      y: 8209
+    },
+    killerId: 5,
+    victimId: 10,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 519859,
+    position: {
+      x: 8348,
+      y: 8741
+    },
+    killerId: 5,
+    victimId: 9,
+    assistingParticipantIds: [2]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 558612,
+    position: {
+      x: 6690,
+      y: 6956
+    },
+    killerId: 10,
+    victimId: 5,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 599964,
+    position: {
+      x: 6592,
+      y: 6161
+    },
+    killerId: 10,
+    victimId: 2,
+    assistingParticipantIds: [9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 627938,
+    position: {
+      x: 13522,
+      y: 4965
+    },
+    killerId: 1,
+    victimId: 7,
+    assistingParticipantIds: [4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 639960,
+    position: {
+      x: 8572,
+      y: 9156
+    },
+    killerId: 10,
+    victimId: 5,
+    assistingParticipantIds: [9]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 644254,
+    position: {
+      x: 9510,
+      y: 8880
+    },
+    killerId: 10,
+    victimId: 3,
+    assistingParticipantIds: [9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 663379,
+    position: {
+      x: 13520,
+      y: 3910
+    },
+    killerId: 6,
+    victimId: 4,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 707668,
+    position: {
+      x: 10681,
+      y: 3161
+    },
+    killerId: 2,
+    victimId: 6,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 731679,
+    position: {
+      x: 6130,
+      y: 11081
+    },
+    killerId: 5,
+    victimId: 10,
+    assistingParticipantIds: [3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 763454,
+    position: {
+      x: 8384,
+      y: 10082
+    },
+    killerId: 5,
+    victimId: 9,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 802298,
+    position: {
+      x: 13424,
+      y: 6403
+    },
+    killerId: 6,
+    victimId: 2,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 804841,
+    position: {
+      x: 13305,
+      y: 6350
+    },
+    killerId: 10,
+    victimId: 4,
+    assistingParticipantIds: [6]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 816503,
+    position: {
+      x: 11816,
+      y: 7708
+    },
+    killerId: 1,
+    victimId: 10,
+    assistingParticipantIds: [2, 4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 854288,
+    position: {
+      x: 2446,
+      y: 13412
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: []
+  }
+];
+
+// match id: 3145270179
+export const game5 = [
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 177581,
+    position: {
+      x: 12454,
+      y: 1617
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: [9]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 178936,
+    position: {
+      x: 12673,
+      y: 1927
+    },
+    killerId: 4,
+    victimId: 7,
+    assistingParticipantIds: [5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 186288,
+    position: {
+      x: 12666,
+      y: 1916
+    },
+    killerId: 9,
+    victimId: 4,
+    assistingParticipantIds: [7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 186717,
+    position: {
+      x: 12603,
+      y: 1881
+    },
+    killerId: 4,
+    victimId: 9,
+    assistingParticipantIds: [5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 260390,
+    position: {
+      x: 6523,
+      y: 8608
+    },
+    killerId: 3,
+    victimId: 6,
+    assistingParticipantIds: []
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 261645,
+    position: {
+      x: 2897,
+      y: 11408
+    },
+    killerId: 8,
+    victimId: 1,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 265710,
+    position: {
+      x: 6243,
+      y: 9519
+    },
+    killerId: 3,
+    victimId: 10,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 273967,
+    position: {
+      x: 2650,
+      y: 9890
+    },
+    killerId: 2,
+    victimId: 8,
+    assistingParticipantIds: [1]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 363238,
+    position: {
+      x: 13862,
+      y: 7107
+    },
+    killerId: 4,
+    victimId: 7,
+    assistingParticipantIds: [3, 1, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 420963,
+    position: {
+      x: 13526,
+      y: 2900
+    },
+    killerId: 9,
+    victimId: 4,
+    assistingParticipantIds: [7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 572971,
+    position: {
+      x: 13406,
+      y: 3783
+    },
+    killerId: 4,
+    victimId: 7,
+    assistingParticipantIds: [3, 5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 611795,
+    position: {
+      x: 3122,
+      y: 11142
+    },
+    killerId: 3,
+    victimId: 10,
+    assistingParticipantIds: [2]
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 611894,
+    position: {
+      x: 3080,
+      y: 11040
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: [10]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 620880,
+    position: {
+      x: 2021,
+      y: 11661
+    },
+    killerId: 8,
+    victimId: 2,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 641131,
+    position: {
+      x: 9170,
+      y: 5616
+    },
+    killerId: 6,
+    victimId: 1,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 684262,
+    position: {
+      x: 8121,
+      y: 7214
+    },
+    killerId: 3,
+    victimId: 6,
+    assistingParticipantIds: []
+  },
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 684295,
+    position: {
+      x: 8230,
+      y: 6968
+    },
+    killerId: 6,
+    victimId: 3,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 701837,
+    position: {
+      x: 13886,
+      y: 3572
+    },
+    killerId: 4,
+    victimId: 9,
+    assistingParticipantIds: [5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 710227,
+    position: {
+      x: 13737,
+      y: 3766
+    },
+    killerId: 5,
+    victimId: 7,
+    assistingParticipantIds: [4]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 715017,
+    position: {
+      x: 13361,
+      y: 2711
+    },
+    killerId: 10,
+    victimId: 4,
+    assistingParticipantIds: [7]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 734805,
+    position: {
+      x: 4094,
+      y: 9887
+    },
+    killerId: 8,
+    victimId: 2,
+    assistingParticipantIds: []
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 801904,
+    position: {
+      x: 7906,
+      y: 7439
+    },
+    killerId: 10,
+    victimId: 1,
+    assistingParticipantIds: [6]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 814622,
+    position: {
+      x: 14100,
+      y: 4821
+    },
+    killerId: 4,
+    victimId: 9,
+    assistingParticipantIds: [5]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 816900,
+    position: {
+      x: 13010,
+      y: 3496
+    },
+    killerId: 7,
+    victimId: 5,
+    assistingParticipantIds: [9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 817263,
+    position: {
+      x: 13733,
+      y: 5041
+    },
+    killerId: 7,
+    victimId: 4,
+    assistingParticipantIds: [9]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 886105,
+    position: {
+      x: 7323,
+      y: 11821
+    },
+    killerId: 1,
+    victimId: 6,
+    assistingParticipantIds: [3]
+  },
+
+  {
+    type: "CHAMPION_KILL",
+    timestamp: 887987,
+    position: {
+      x: 7609,
+      y: 8759
+    },
+    killerId: 8,
+    victimId: 3,
+    assistingParticipantIds: [6]
+  },
+
+  
+];
