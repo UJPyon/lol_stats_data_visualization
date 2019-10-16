@@ -5,38 +5,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>aa.op.gg</title>
-  <script src="./src/index.js"></script>
-  <script src="https://d3js.org/d3.v5.js"></script>
+  <title>League of Legends Stats</title>
+
+  <script rel="stylesheet" src="./src/style/index.scss"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-contour.v1.min.js"></script>
+
 </head>
 
 <body>
   <header>League: Better Wards</header>
+
+  <div id="map">
+
+  </div>
   <!-- Page elements and content will go here -->
   <script>
-    // D3 code will go here
 
-    // Width and Height of the whole visualization
-      var width = 500;
-      var height = 500;
+  // let map1 = d3.select("body")
+  //   .append("svg")
+  //   .attr("width", 500)
+  //   .attr("height", 500);
 
-    // Create SVG
-    var svg = d3.select("body")
-      .append("svg")
-      .attr("width", width)
-      .attr("height", height);
+  // const map2 = d3.select("body")
+  //     .append("svg")
+  //     .attr("width", 500)
+  //     .attr("height", 500);
+  // map1
+  //   .append("image")
+  //   .attr("xlink:href", "https://matchhistory.na.leagueoflegends.com/assets/1.0.36/images/maps/map11.png")
+  //   .attr("x", "0")
+  //   .attr("y", "0")
+  //   .attr("width", 500)
+  //   .attr("height", 500);
 
-    // Append empty placeholder g element to the SVG
-    // g will contain geometry elements
-    var g = svg.append("g");
+  // map2
+  //   .append("image")
+  //   .attr("xlink:href", "https://matchhistory.na.leagueoflegends.com/assets/1.0.36/images/maps/map11.png")
+  //   .attr("x", "0")
+  //   .attr("y", "0")
+  //   .attr("width", 500)
+  //   .attr("height", 500);
+
   </script>
-  <div id="minimap-left">
-    
-  </div>
-
-  <div id="minimap-right">
-    
-  </div>
+  <script src="./src/index.js"></script>
 </body>
 
 </html>
