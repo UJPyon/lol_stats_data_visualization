@@ -11,7 +11,7 @@
 }
 
 .map1 {
-    box-shadow: 10px 10px 10px 10px black;
+    /* box-shadow: 10px 10px 10px 10px black; */
     width: 500px;
     height: 500px;
 }
@@ -21,23 +21,35 @@
     width: 40px;
 }
 
-/* .button1 {
-    background-image: url("../images/Emblem_Iron.png");
-    height: 60px;
-    width: 80px;
-    border: none;
+body {
+    display: flex;
+    background-image: "http://getwallpapers.com/wallpaper/full/6/d/d/248922.jpg";
 }
 
-.button2 {
-    background-image: url("../images/Emblem_Bronze.png");
-    height: 60px;
-    width: 80px;
-    border: none;
-}
-
-.button3 {
-    background-image: url("../images/Emblem_Silver.png");
-    height: 60px;
-    width: 80px;
-    border: none;
+/* body > section:first-of-type {
+    margin-left: 300px;
 } */
+
+body > section:first-of-type > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+/* 
+body > section:nth-of-type(3) {
+    margin-left: 300px;
+} */
+
+body > section:nth-of-type(3) > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.background {
+    position: fixed;
+    display: flex;
+    z-index: -1;
+    min-height: 100%;
+    max-width: 100%;
+}
