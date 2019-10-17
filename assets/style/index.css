@@ -17,6 +17,27 @@
 }
 
 .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9 {
+    height: 40px;
+    width: 40px;
+}
+
+/* .button1 {
+    background-image: url("../images/Emblem_Iron.png");
     height: 60px;
     width: 80px;
+    border: none;
 }
+
+.button2 {
+    background-image: url("../images/Emblem_Bronze.png");
+    height: 60px;
+    width: 80px;
+    border: none;
+}
+
+.button3 {
+    background-image: url("../images/Emblem_Silver.png");
+    height: 60px;
+    width: 80px;
+    border: none;
+} */
