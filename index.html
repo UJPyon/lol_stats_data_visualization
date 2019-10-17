@@ -7,50 +7,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>League of Legends Stats</title>
 
-  <script rel="stylesheet" src="./src/style/index.scss"></script>
+  <link rel="stylesheet" href="./assets/style/index.css">
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="https://d3js.org/d3-contour.v1.min.js"></script>
 
 </head>
 
 <body>
-  <header>League: Better Wards</header>
+  <header>League: Stats</header>
 
-  <div id="map">
-
+  <div id="icons"></div>
+  <div id="map1" class="map1">
+    <button class="button1" onclick="changeData('./match_data/iron_match_data.json')"></button>
+    <button class="button2" onclick="changeData('./match_data/bronze_match_data.json')"></button>
+    <button class="button3" onclick="changeData('./match_data/silver_match_data.json')"></button>
+    <button class="button4" onclick="changeData('./match_data/gold_match_data.json')"></button>
+    <button class="button5" onclick="changeData('./match_data/platinum_match_data.json')"></button>
+    <button class="button6" onclick="changeData('./match_data/diamond_match_data.json')"></button>
+    <button class="button7" onclick="changeData('./match_data/master_match_data.json')"></button>
+    <button class="button8" onclick="changeData('./match_data/grandmaster_match_data.json')"></button>
+    <button class="button9" onclick="changeData('./match_data/challenger_match_data.json')"></button>
   </div>
-  <!-- Page elements and content will go here -->
-  <script>
 
-  // let map1 = d3.select("body")
-  //   .append("svg")
-  //   .attr("width", 500)
-  //   .attr("height", 500);
+  <div id="map2" class="map2"></div>
 
-  // const map2 = d3.select("body")
-  //     .append("svg")
-  //     .attr("width", 500)
-  //     .attr("height", 500);
-  // map1
-  //   .append("image")
-  //   .attr("xlink:href", "https://matchhistory.na.leagueoflegends.com/assets/1.0.36/images/maps/map11.png")
-  //   .attr("x", "0")
-  //   .attr("y", "0")
-  //   .attr("width", 500)
-  //   .attr("height", 500);
-
-  // map2
-  //   .append("image")
-  //   .attr("xlink:href", "https://matchhistory.na.leagueoflegends.com/assets/1.0.36/images/maps/map11.png")
-  //   .attr("x", "0")
-  //   .attr("y", "0")
-  //   .attr("width", 500)
-  //   .attr("height", 500);
-
-  </script>
   <script src="./src/index.js"></script>
 </body>
 
 </html>
-
-<!-- aa.op.gg -->
