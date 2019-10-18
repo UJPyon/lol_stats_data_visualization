@@ -53,3 +53,19 @@ body > section:nth-of-type(3) > div {
     min-height: 100%;
     max-width: 100%;
 }
+
+.barGraph rect {
+    fill: #18a3b4;
+}
+
+.barGraph text {
+    fill: white;
+}
+
+.barGraph line {
+    stroke: none;
+}
+
+.barGraph path {
+    stroke: none;
+}
