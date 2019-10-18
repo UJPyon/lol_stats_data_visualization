@@ -1,6 +1,6 @@
 let changeData = function(dataPath) {
-  svg.selectAll("circle").transition().duration(500).style("opacity", 0).remove();
-  svg.selectAll("path").transition().duration(500).style("opacity", 0).remove();
+  svg.selectAll("circle").transition().duration(400).style("opacity", 0).remove();
+  svg.selectAll("path").transition().duration(400).style("opacity", 0).remove();
 
   d3.json(dataPath, function(data) {
     const dataPoint = data.frames;
@@ -27,7 +27,7 @@ let changeData = function(dataPath) {
         }
       })
       .transition()
-      .duration(600)
+      .duration(400)
       .style("opacity", 1);
 
     let color = d3
@@ -58,7 +58,7 @@ let changeData = function(dataPath) {
         return color(d.value * 300);
       })
       .transition()
-      .duration(600)
+      .duration(400)
       .style("opacity", 1);
   });
 

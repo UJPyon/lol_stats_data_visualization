@@ -21,26 +21,36 @@
     width: 40px;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
+    width: 100%;
+    height: 100%;
     display: flex;
-    background-image: "http://getwallpapers.com/wallpaper/full/6/d/d/248922.jpg";
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* body > section:first-of-type {
     margin-left: 300px;
 } */
 
-body > section:first-of-type > div {
+.main > section:first-of-type > div {
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
 }
-/* 
-body > section:nth-of-type(3) {
-    margin-left: 300px;
-} */
 
-body > section:nth-of-type(3) > div {
+.main > section:nth-of-type(3) > div {
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
@@ -50,8 +60,8 @@ body > section:nth-of-type(3) > div {
     position: fixed;
     display: flex;
     z-index: -1;
-    min-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .barGraph rect {
@@ -67,5 +77,21 @@ body > section:nth-of-type(3) > div {
 }
 
 .barGraph path {
+    stroke: none;
+}
+
+.barGraph2 rect {
+    fill: #ec2540;
+}
+
+.barGraph2 text {
+    fill: white;
+}
+
+.barGraph2 line {
+    stroke: none;
+}
+
+.barGraph2 path {
     stroke: none;
 }
