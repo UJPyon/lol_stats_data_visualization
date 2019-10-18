@@ -21,9 +21,9 @@ let changeData = function(dataPath) {
       .attr("r", 5)
       .style("fill", function(d) {
         if (d.victimId < 6) {
-          return "blue";
+          return "rgb(0, 102, 227)";
         } else {
-          return "red";
+          return "#ec2540";
         }
       })
       .transition()
@@ -61,8 +61,6 @@ let changeData = function(dataPath) {
       .duration(400)
       .style("opacity", 1);
   });
-
-
 };
 
 window.changeData = changeData.bind(window);
@@ -130,9 +128,9 @@ d3.json("./match_data/iron_match_data.json", function(data) {
     .attr("r", 5)
     .style("fill", function(d) {
       if (d.victimId < 6) {
-        return "blue";
+        return "rgb(0, 102, 227)";
       } else {
-        return "red";
+        return "#ec2540";
       }
     });
 
@@ -204,9 +202,9 @@ d3.json("./match_data/challenger_match_data.json", function(data) {
     .attr("r", 5)
     .style("fill", function(d) {
       if (d.victimId < 6) {
-        return "blue";
+        return "rgb(0, 102, 227)";
       } else {
-        return "red";
+        return "#ec2540";
       }
     });
 
@@ -267,9 +265,9 @@ let changeData2 = function(dataPath) {
       .attr("r", 5)
       .style("fill", function(d) {
         if (d.victimId < 6) {
-          return "blue";
+          return "rgb(0, 102, 227)";
         } else {
-          return "red";
+          return "#ec2540";
         }
       })
       .transition()

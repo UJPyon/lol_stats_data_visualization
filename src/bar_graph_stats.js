@@ -61,9 +61,10 @@ const render = (data, svg) => {
   const innerWidth = barWidth - margin.left - margin.right;
   const innerHeight = barHeight - margin.top - margin.bottom;
 
-  const xScale = d3.scaleLinear()
+  const xScale = d3
+    .scaleLinear()
     .domain([0, d3.max(data, xValue)])
-    .range([0, innerWidth]);
+    .range([innerWidth, 0]);
 
   const yScale = d3.scaleBand()
     .domain(data.map(yValue))
@@ -77,16 +78,17 @@ const render = (data, svg) => {
   
   yAxis(g.append('g'));
 
-  g.selectAll('rect')
+  g.selectAll("rect")
     .data(data)
     .enter()
-    .append('rect')
-    .attr('y', d => yScale(yValue(d)))
-    .attr('height', yScale.bandwidth())
-    .attr('width', 0)
+    .append("rect")
+    .attr("y", d => yScale(yValue(d)))
+    .attr("x", d => xScale(xValue(d)))
+    .attr("height", yScale.bandwidth())
+    .attr("width", d => barWidth - xScale(xValue(d)))
     .transition()
     .duration(400)
-    .attr('width', d => xScale(xValue(d)))
+    .attr("width", d => xScale(0) - xScale(xValue(d)));
 
   svg.selectAll('g.bar')
     .data(data)
@@ -95,15 +97,15 @@ const render = (data, svg) => {
     .append('text')
     .attr('class', 'barText')
     .attr('dy', 50)
-    .attr('dx', 120)
+    .attr('dx', 210)
     .attr('y', d => {
       return d.idx * 52
     })
     .transition()
     .duration(400)
-    .attr('dx', 130)
+    .attr('dx', 200) 
     .attr('x', 10)
-    .attr('text-anchor', 'right')
+    .attr('text-anchor', 'end')
     .text((d) => { return textValue(d) });
 };
 
