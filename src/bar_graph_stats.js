@@ -83,12 +83,16 @@ const render = (data, svg) => {
     .enter()
     .append("rect")
     .attr("y", d => yScale(yValue(d)))
-    .attr("x", d => xScale(xValue(d)))
     .attr("height", yScale.bandwidth())
-    .attr("width", d => barWidth - xScale(xValue(d)))
+    .attr("x", d => xScale(0))
+    .attr("width", 0)
+    // .attr("width", d => barWidth - 150 - xScale(xValue(d)))
+    // .attr("width", 60)
     .transition()
     .duration(400)
-    .attr("width", d => xScale(0) - xScale(xValue(d)));
+    .attr("x", d => xScale(xValue(d)))
+    .attr("width", d => barWidth - 150 - xScale(xValue(d)));
+    // .attr("width", d => xScale(0) - xScale(xValue(d)));
 
   svg.selectAll('g.bar')
     .data(data)
