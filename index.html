@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>League of Legends Stats</title>
 
+  <link rel="stylesheet" href="./assets/style/reset.css">
   <link rel="stylesheet" href="./assets/style/index.css">
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="https://d3js.org/d3-contour.v1.min.js"></script>
@@ -14,40 +15,63 @@
 </head>
 
 <body>
-  <header>League: Stats</header>
+  <script>
+    const ironJson = './match_data/iron_match_data.json';
+    const bronzeJson = './match_data/bronze_match_data.json';
+    const silverJson = './match_data/silver_match_data.json';
+    const goldJson = './match_data/gold_match_data.json';
+    const platJson = './match_data/platinum_match_data.json';
+    const diamondJson = './match_data/diamond_match_data.json';
+    const masterJson = './match_data/master_match_data.json';
+    const grandJson = './match_data/grandmaster_match_data.json';
+    const challengerJson = './match_data/challenger_match_data.json';
+  </script>
 
   <section class="main">
     <section>
-      <div>
-        <img class="button1" src="/assets/images/Emblem_Iron.png" onclick="changeData('./match_data/iron_match_data.json'), updateGraph1('./match_data/iron_match_data.json')">
-        <img class="button2" src="/assets/images/Emblem_Bronze.png" onclick="changeData('./match_data/bronze_match_data.json'), updateGraph1('./match_data/bronze_match_data.json')">
-        <img class="button3" src="/assets/images/Emblem_Silver.png" onclick="changeData('./match_data/silver_match_data.json'), updateGraph1('./match_data/silver_match_data.json')">
-        <img class="button4" src="/assets/images/Emblem_Gold.png" onclick="changeData('./match_data/gold_match_data.json'), updateGraph1('./match_data/gold_match_data.json')">
-        <img class="button5" src="/assets/images/Emblem_Platinum.png" onclick="changeData('./match_data/platinum_match_data.json'), updateGraph1('./match_data/platinum_match_data.json')">
-        <img class="button6" src="/assets/images/Emblem_Diamond.png" onclick="changeData('./match_data/diamond_match_data.json'), updateGraph1('./match_data/diamond_match_data.json')">
-        <img class="button7" src="/assets/images/Emblem_Master.png" onclick="changeData('./match_data/master_match_data.json'), updateGraph1('./match_data/master_match_data.json')">
-        <img class="button8" src="/assets/images/Emblem_Grandmaster.png" onclick="changeData('./match_data/grandmaster_match_data.json'), updateGraph1('./match_data/grandmaster_match_data.json')">
-        <img class="button9" src="/assets/images/Emblem_Challenger.png" onclick="changeData('./match_data/challenger_match_data.json'), updateGraph1('./match_data/challenger_match_data.json')">
+      <div id="buttonSet1">
+        <img class="button active" src="/assets/images/Emblem_Iron.png" onclick="changeData(`${ironJson}`), updateGraph1(`${ironJson}`)">
+        <img class="button" src="/assets/images/Emblem_Bronze.png" onclick="changeData(`${bronzeJson}`), updateGraph1(`${bronzeJson}`)">
+        <img class="button" src="/assets/images/Emblem_Silver.png" onclick="changeData(`${silverJson}`), updateGraph1(`${silverJson}`)">
+        <img class="button" src="/assets/images/Emblem_Gold.png" onclick="changeData(`${goldJson}`), updateGraph1(`${goldJson}`)">
+        <img class="button" src="/assets/images/Emblem_Platinum.png" onclick="changeData(`${platJson}`), updateGraph1(`${platJson}`)">
+        <img class="button" src="/assets/images/Emblem_Diamond.png" onclick="changeData(`${diamondJson}`), updateGraph1(`${diamondJson}`)">
+        <img class="button" src="/assets/images/Emblem_Master.png" onclick="changeData(`${masterJson}`), updateGraph1(`${masterJson}`)">
+        <img class="button" src="/assets/images/Emblem_Grandmaster.png" onclick="changeData(`${grandJson}`), updateGraph1(`${grandJson}`)">
+        <img class="button" src="/assets/images/Emblem_Challenger.png" onclick="changeData(`${challengerJson}`), updateGraph1(`${challengerJson}`)">
       </div>
       <div id="map1" class="map1"></div>
     </section>
-  
+
+    <div class="title">
+      <img src="./assets/images/league_logo.png">
+      <header>League Divison Statistics</header>
+      <h3>Avg. per game</h3>
+    </div>
+    
     <section>
       <div id="barGraph" class="barGraph"></div>
+      <ul class="barGraph-labels">
+        <li><p>Towers</p><p>Destroyed</p></li>
+        <li>Wards Placed</li>
+        <li>Total Gold</li>
+        <li><p>Lane Minions</p><p>Killed</p></li>
+        <li><p>Jungle Minions</p><p>Killed</p></li>
+      </ul>
       <div id="barGraph2" class="barGraph2"></div>
     </section>
-  
+
     <section>
-      <div>
-        <img class="button1" src="/assets/images/Emblem_Iron.png" onclick="changeData2('./match_data/iron_match_data.json'), updateGraph2('./match_data/iron_match_data.json')">
-        <img class="button2" src="/assets/images/Emblem_Bronze.png" onclick="changeData2('./match_data/bronze_match_data.json'), updateGraph2('./match_data/bronze_match_data.json')">
-        <img class="button3" src="/assets/images/Emblem_Silver.png" onclick="changeData2('./match_data/silver_match_data.json'), updateGraph2('./match_data/silver_match_data.json')">
-        <img class="button4" src="/assets/images/Emblem_Gold.png" onclick="changeData2('./match_data/gold_match_data.json'), updateGraph2('./match_data/gold_match_data.json')">
-        <img class="button5" src="/assets/images/Emblem_Platinum.png" onclick="changeData2('./match_data/platinum_match_data.json'), updateGraph2('./match_data/platinum_match_data.json')">
-        <img class="button6" src="/assets/images/Emblem_Diamond.png" onclick="changeData2('./match_data/diamond_match_data.json'), updateGraph2('./match_data/diamond_match_data.json')">
-        <img class="button7" src="/assets/images/Emblem_Master.png" onclick="changeData2('./match_data/master_match_data.json'), updateGraph2('./match_data/master_match_data.json')">
-        <img class="button8" src="/assets/images/Emblem_Grandmaster.png" onclick="changeData2('./match_data/grandmaster_match_data.json'), updateGraph2('./match_data/grandmaster_match_data.json')">
-        <img class="button9" src="/assets/images/Emblem_Challenger.png" onclick="changeData2('./match_data/challenger_match_data.json'), updateGraph2('./match_data/challenger_match_data.json')">
+      <div id="buttonSet2">
+        <img class="button2" src="/assets/images/Emblem_Iron.png" onclick="changeData2(`${ironJson}`), updateGraph2(`${ironJson}`)">
+        <img class="button2" src="/assets/images/Emblem_Bronze.png" onclick="changeData2(`${bronzeJson}`), updateGraph2(`${bronzeJson}`)">
+        <img class="button2" src="/assets/images/Emblem_Silver.png" onclick="changeData2(`${silverJson}`), updateGraph2(`${silverJson}`)">
+        <img class="button2" src="/assets/images/Emblem_Gold.png" onclick="changeData2(`${goldJson}`), updateGraph2(`${goldJson}`)">
+        <img class="button2" src="/assets/images/Emblem_Platinum.png" onclick="changeData2(`${platJson}`), updateGraph2(`${platJson}`)">
+        <img class="button2" src="/assets/images/Emblem_Diamond.png" onclick="changeData2(`${diamondJson}`), updateGraph2(`${diamondJson}`)">
+        <img class="button2" src="/assets/images/Emblem_Master.png" onclick="changeData2(`${masterJson}`), updateGraph2(`${masterJson}`)">
+        <img class="button2" src="/assets/images/Emblem_Grandmaster.png" onclick="changeData2(`${grandJson}`), updateGraph2(`${grandJson}`)">
+        <img class="button2 active2" src="/assets/images/Emblem_Challenger.png" onclick="changeData2(`${challengerJson}`), updateGraph2(`${challengerJson}`)">
       </div>
       <div id="map2" class="map2"></div>
     </section>
@@ -58,6 +82,30 @@
   <!-- <script src="./src/index.js"></script> -->
   <script src="./dist/main.js"></script>
   <script src="./src/bar_graph_stats.js"></script>
+  <script>
+  const iconContainer1 = document.getElementById("buttonSet1");
+    const buttonSet1 = iconContainer1.getElementsByClassName("button");
+    for (let i = 0; i < buttonSet1.length; i++) {
+      buttonSet1[i].addEventListener("click", function () {
+        const current = document.getElementsByClassName("active");
+        if (current.length > 0) {
+          current[0].className = current[0].className.replace(" active", "");
+        }
+        this.className += " active";
+      });
+    }
+    const iconContainer2 = document.getElementById("buttonSet2");
+    const buttonSet2 = iconContainer2.getElementsByClassName("button2");
+    for (let i = 0; i < buttonSet2.length; i++) {
+      buttonSet2[i].addEventListener("click", function () {
+        const current = document.getElementsByClassName("active2");
+        if (current.length > 0) {
+          current[0].className = current[0].className.replace(" active2", "");
+        }
+        this.className += " active2";
+      });
+    }
+  </script>
 </body>
 
 </html>

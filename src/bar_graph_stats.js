@@ -1,19 +1,19 @@
 const barHeight = 300;
-const barWidth = 240;
+const barWidth = 300;
 
 // Statistics Bar Graph: Left Side
 const svg3 = d3
 .select("#barGraph")
 .append("svg")
-.attr("width", 260)
-.attr("height", 400);
+.attr("width", 220)
+.attr("height", 300);
 
 // Statistics Bar Graph: Right Side
 const svg4 = d3
 .select("#barGraph2")
 .append("svg")
-.attr("width", 260)
-.attr("height", 400);
+.attr("width", 200)
+.attr("height", 300);
 
 // Function to pre-structure json data into an object with key-value pairs
 function preprocess(givenData) {
@@ -71,12 +71,8 @@ const render = (data, svg) => {
     .range([0, innerHeight])
     .padding(0.1);
 
-  const yAxis = d3.axisLeft(yScale);
-
   const g = svg.append('g')
-    .attr('transform', `translate(${margin.left},${margin.top})`)
-  
-  yAxis(g.append('g'));
+    .attr('transform', `translate(50, ${margin.top})`)
 
   g.selectAll("rect")
     .data(data)
@@ -86,13 +82,10 @@ const render = (data, svg) => {
     .attr("height", yScale.bandwidth())
     .attr("x", d => xScale(0))
     .attr("width", 0)
-    // .attr("width", d => barWidth - 150 - xScale(xValue(d)))
-    // .attr("width", 60)
     .transition()
     .duration(400)
     .attr("x", d => xScale(xValue(d)))
     .attr("width", d => barWidth - 150 - xScale(xValue(d)));
-    // .attr("width", d => xScale(0) - xScale(xValue(d)));
 
   svg.selectAll('g.bar')
     .data(data)
@@ -101,13 +94,13 @@ const render = (data, svg) => {
     .append('text')
     .attr('class', 'barText')
     .attr('dy', 50)
-    .attr('dx', 210)
+    .attr('dx', 190)
     .attr('y', d => {
       return d.idx * 52
     })
     .transition()
     .duration(400)
-    .attr('dx', 200) 
+    .attr('dx', 180) 
     .attr('x', 10)
     .attr('text-anchor', 'end')
     .text((d) => { return textValue(d) });
@@ -120,8 +113,8 @@ const render2 = (data, svg) => {
   const xValue = d => d.value;
   const yValue = d => d.id;
   const textValue = d => d.text;
-  const margin = { top: 20, right: 20, bottom: 20, left: 130 };
-  const innerWidth = barWidth - margin.left - margin.right;
+  const margin = { top: 20, right: 40, bottom: 20, left: 20 };
+  const innerWidth = 200 - margin.left - margin.right;
   const innerHeight = barHeight - margin.top - margin.bottom;
 
   const xScale = d3.scaleLinear()
@@ -133,12 +126,12 @@ const render2 = (data, svg) => {
     .range([0, innerHeight])
     .padding(0.1);
 
-  const yAxis = d3.axisLeft(yScale);
+  // const yAxis = d3.axisLeft(yScale);
 
   const g = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`)
   
-  yAxis(g.append('g'));
+  // yAxis(g.append('g'));
 
   g.selectAll('rect')
     .data(data)
@@ -158,13 +151,13 @@ const render2 = (data, svg) => {
     .append('text')
     .attr('class', 'barText')
     .attr('dy', 50)
-    .attr('dx', 120)
+    .attr('dx', 10)
     .attr('y', d => {
       return d.idx * 52
     })
     .transition()
     .duration(400)
-    .attr('dx', 130)
+    .attr('dx', 20)
     .attr('x', 10)
     .attr('text-anchor', 'right')
     .text((d) => { return textValue(d) });

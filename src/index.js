@@ -21,10 +21,10 @@ let changeData = function(dataPath) {
       .attr("r", 5)
       .style("fill", function(d) {
         if (d.victimId < 6) {
-          return "rgb(0, 102, 227)";
+          return "rgb(0, 77, 172)"; // <-- colors of data points on map: changeable
         } else {
-          return "#ec2540";
-        }
+          return "rgb(0, 102, 227)"; // <-- colors of data points on map: changeable
+               }
       })
       .transition()
       .duration(400)
@@ -128,9 +128,9 @@ d3.json("./match_data/iron_match_data.json", function(data) {
     .attr("r", 5)
     .style("fill", function(d) {
       if (d.victimId < 6) {
-        return "rgb(0, 102, 227)";
+        return "rgb(0, 77, 172)"; // <-- colors of data points on map: changeable
       } else {
-        return "#ec2540";
+        return "rgb(0, 102, 227)"; // <-- colors of data points on map: changeable
       }
     });
 
@@ -166,8 +166,6 @@ d3.json("./match_data/iron_match_data.json", function(data) {
 // -------------------------
 // --Map #2 For Comparison--
 // -------------------------
-
-
 let svg2;
 
 svg2 = d3
@@ -202,9 +200,9 @@ d3.json("./match_data/challenger_match_data.json", function(data) {
     .attr("r", 5)
     .style("fill", function(d) {
       if (d.victimId < 6) {
-        return "rgb(0, 102, 227)";
+        return "#ec2540"; // <-- colors of data points on map: changeable
       } else {
-        return "#ec2540";
+        return "#b81c30"; // <-- colors of data points on map: changeable
       }
     });
 
@@ -241,7 +239,6 @@ d3.json("./match_data/challenger_match_data.json", function(data) {
 // --------------------
 // --Method for Map 2--
 // --------------------
-
 let changeData2 = function(dataPath) {
   svg2.selectAll("circle").transition().duration(500).style("opacity", 0).remove();
   svg2.selectAll("path").transition().duration(500).style("opacity", 0).remove();
@@ -265,9 +262,9 @@ let changeData2 = function(dataPath) {
       .attr("r", 5)
       .style("fill", function(d) {
         if (d.victimId < 6) {
-          return "rgb(0, 102, 227)";
+          return "#ec2540"; // <-- colors of data points on map: changeable
         } else {
-          return "#ec2540";
+          return "#b81c30"; // <-- colors of data points on map: changeable
         }
       })
       .transition()

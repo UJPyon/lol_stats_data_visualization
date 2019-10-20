@@ -11,17 +11,15 @@
 }
 
 .map1 {
-    /* box-shadow: 10px 10px 10px 10px black; */
+    box-shadow: 0 10px 10px 10px #030303;
     width: 500px;
     height: 500px;
 }
 
-.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9 {
-    height: 40px;
-    width: 40px;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 5px;
+.map2 {
+    box-shadow: 0 10px 10px 10px #030303;
+    width: 500px;
+    height: 500px;
 }
 
 html {
@@ -42,10 +40,6 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
-
-/* body > section:first-of-type {
-    margin-left: 300px;
-} */
 
 .main > section:first-of-type > div {
     display: flex;
@@ -72,13 +66,44 @@ body {
     width: 100%;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+}
+
+.title > img {
+    width: 300px;
+    height: auto;
+}
+
+.title > h3 {
+    color: #ffdb9c;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+header {
+    color: #ffdb9c;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    text-shadow: 0 0 5px black;
+}
+
 .barGraph rect {
     fill: #18a3b4;
-    color: rgb(0, 102, 227);
 }
 
 .barGraph text {
     fill: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 .barGraph line {
@@ -95,6 +120,8 @@ body {
 
 .barGraph2 text {
     fill: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 .barGraph2 line {
@@ -104,3 +131,60 @@ body {
 .barGraph2 path {
     stroke: none;
 }
+
+.barGraph-labels {
+    color: #c6a874;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barGraph-labels li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #e9e7e2;
+    border: 3px solid rgb(43, 43, 43);
+    border-radius: 50px;
+    transition: .1s;
+}
+
+.button:hover, .active {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+  /* background: rgba(255, 255, 255, 0.13); */
+  transition: .1;
+  transition-timing-function: ease;
+  border: 3px solid #18a3b4;
+ }
+
+.button2 {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #e9e7e2;
+    border: 3px solid rgb(43, 43, 43);
+    border-radius: 50px;
+    transition: .1s;
+}
+
+.button2:hover, .active2 {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+  /* background: rgba(255, 255, 255, 0.13); */
+  transition: .1s;
+  transition-timing-function: ease;
+  border: 3px solid #ec2540;
+ }
