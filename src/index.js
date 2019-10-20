@@ -4,7 +4,6 @@ let changeData = function(dataPath) {
 
   d3.json(dataPath, function(data) {
     const dataPoint = data.frames;
-    // console.log(dataPoint);
     svg
       .append("svg:g")
       .selectAll("circle")
@@ -230,7 +229,6 @@ d3.json("./match_data/challenger_match_data.json", function(data) {
     .append("path")
     .attr("d", d3.geoPath())
     .attr("fill", function(d) {
-      // console.log(d.value * 300)
       return color(d.value * 300);
     });
 });
@@ -245,7 +243,6 @@ let changeData2 = function(dataPath) {
 
   d3.json(dataPath, function(data) {
     const dataPoint = data.frames;
-    // console.log(dataPoint);
     svg2
       .append("svg:g")
       .selectAll("circle")
