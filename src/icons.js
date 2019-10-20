@@ -54,7 +54,6 @@ let changeData = function(dataPath) {
       .append("path")
       .attr("d", d3.geoPath())
       .attr("fill", function(d) {
-        console.log(d.value * 300);
         return color(d.value * 300);
       });
   });

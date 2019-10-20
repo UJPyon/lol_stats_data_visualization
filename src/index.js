@@ -111,7 +111,6 @@ svg
 
 d3.json("./match_data/iron_match_data.json", function(data) {
   const dataPoint = data.frames;
-  console.log(dataPoint);
   svg
     .append("svg:g")
     .selectAll("circle")
