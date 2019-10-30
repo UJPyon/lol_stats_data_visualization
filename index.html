@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>League of Legends Stats</title>
+  <title>LoL Stats</title>
 
   <link rel="stylesheet" href="./assets/style/reset.css">
   <link rel="stylesheet" href="./assets/style/index.css">
@@ -43,13 +43,16 @@
       <div id="map1" class="map1"></div>
     </section>
 
-    <div class="title">
-      <img src="./assets/images/league_logo.png">
-      <header>League Divison Statistics</header>
-      <h3>Avg. per game</h3>
-    </div>
     
     <section>
+      <button id="btn1" class="btn1">What is League of Legends?</button>
+      <button id="btn2" class="btn2">What's being displayed?</button>
+
+      <div class="title">
+        <img src="./assets/images/league_logo.png">
+        <header>Early Game Statistics</header>
+        <h3>Avg. per game</h3>
+      </div>
       <div id="barGraph" class="barGraph"></div>
       <ul class="barGraph-labels">
         <li><p>Towers</p><p>Destroyed</p></li>
@@ -77,11 +80,9 @@
     </section>
   </section>
 
+  <!-- Wallpaper Image for Background -->
   <img class="background" src="http://getwallpapers.com/wallpaper/full/6/d/d/248922.jpg">
 
-  <!-- <script src="./src/index.js"></script> -->
-  <script src="./dist/main.js"></script>
-  <script src="./src/bar_graph_stats.js"></script>
   <script>
   const iconContainer1 = document.getElementById("buttonSet1");
     const buttonSet1 = iconContainer1.getElementsByClassName("button");
@@ -106,6 +107,73 @@
       });
     }
   </script>
+    
+    <!-- Intro Modal -->
+    <div id="myModal1" class="info-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>What is League of Legends?</h2>
+          <span class="close1">&times;</span>
+        </div>
+        <p>League of Legends is a fast-paced popular online multiplayer game that involves working as a team of 5 against
+          another team to take down the opposing team's base. As a highly competitive game, many people often look toward
+          statistical comparisons on how they perform early on in a game compared to those at a higher skill level. This
+          project aims to provide a sample selection of data collected from games across different skill levels as a visual
+          comparison of how players in different leagues stack against each other.</p>
+      </div>
+    </div>
+    
+    <!-- Info Modal -->
+    <div id="myModal2" class="info-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>What's being displayed?</h2>
+          <span class="close2">&times;</span>
+        </div>
+        <p>The game map shows patterns of player deaths in the first 15 minutes in a sample selection of matches ranging
+          from the
+          lowest tier of ranked play (iron tier) to the highest level tier (challenger tier) from left to right. The
+          breakdown of
+          average stats per game's first 15 minutes, such as total gold earned, wards placed, and towers destroyed on the
+          map are graphed
+          to show the differences in numbers of how different level divisions perform within the early stages of the game.
+        </p>
+      </div>
+    </div>
+    
+    <script>
+      // --Handling modal logic--
+      const modal1 = document.getElementById("myModal1");
+      const modal2 = document.getElementById("myModal2");
+      const btn1 = document.getElementById("btn1");
+      const btn2 = document.getElementById("btn2");
+      const span1 = document.getElementsByClassName("close1")[0];
+      const span2 = document.getElementsByClassName("close2")[0];
+
+      btn1.onclick = function () {
+        modal1.style.display = "block";
+      }
+      btn2.onclick = function () {
+        modal2.style.display = "block";
+      }
+
+      span1.onclick = function () {
+        modal1.style.display = "none";
+      }
+      span2.onclick = function () {
+        modal2.style.display = "none";
+      }
+
+      window.onclick = function (event) {
+        if (event.target == modal1) {
+          modal1.style.display = "none";
+        } else if (event.target == modal2) {
+          modal2.style.display = "none";
+        }
+      }
+    </script>
+    <script src="./dist/main.js"></script>
+    <script src="./src/bar_graph_stats.js"></script>
 </body>
 
 </html>
