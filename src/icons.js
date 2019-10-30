@@ -4,7 +4,6 @@ let changeData = function(dataPath) {
 
   d3.json(dataPath, function(data) {
     const dataPoint = data.frames;
-    // console.log(dataPoint);
     svg
       .append("svg:g")
       .selectAll("circle")

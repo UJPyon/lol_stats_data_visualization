@@ -156,7 +156,6 @@ d3.json("./match_data/iron_match_data.json", function(data) {
     .append("path")
     .attr("d", d3.geoPath())
     .attr("fill", function(d) {
-      // console.log(d.value * 300)
       return color(d.value * 300);
     });
 });
@@ -182,7 +181,6 @@ svg2
 
 d3.json("./match_data/challenger_match_data.json", function(data) {
   const dataPoint = data.frames;
-  // console.log(dataPoint);
   svg2
     .append("svg:g")
     .selectAll("circle")
