@@ -214,11 +214,57 @@ header {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #dedede;
   margin: 15% auto;
-  padding: 50px;
-  border: 1px solid #888;
   width: 70%;
+  max-width: 1024px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-body {
+  padding: 20px;
+  display: flex;
+}
+
+.modal-body > div {
+  margin-left: 20px
+}
+
+.modal-body > div > p:first-of-type {
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.modal-body > div > p:nth-of-type(2) {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.modal-body > img {
+  height: 200px;
+  width: auto;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../images/lol-textures.png');
+  color: white;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.modal-body-alt {
+  padding: 20px;
+  font-size: 13px;
+  line-height: 19px;
 }
 
 .close {
@@ -273,4 +319,32 @@ header {
   color: white;
   border: 1px solid rgba(193, 190, 228);
   box-shadow: 0 0 12px 0 rgba(193, 190, 228, 0.803);
+}
+
+.divider {
+    background-color: #d1d3d4;
+    border: 0;
+    border-top: 1px solid #d1d3d4;
+    border-bottom: 1px solid #f9f9fa;
+    color: #d1d3d4;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    height: 2px;
+}
+
+.divider::before {
+    left: 0;
+    background-position: 0 -4px;
+    position: absolute;
+    top: -1px;
+    right: 0;
+}
+
+.divider::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 33px;
+    background: 
 }
