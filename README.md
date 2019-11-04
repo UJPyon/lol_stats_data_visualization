@@ -1,4 +1,4 @@
-# League Ward Placement Data Visualization
+# League of Legends Statistics
 
 ## Background and Overview
   * Motivation for project
