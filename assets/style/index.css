@@ -274,6 +274,10 @@ strong {
   font-weight: bold;
 }
 
+.close2:hover {
+  cursor: pointer;
+}
+
 .close:hover, .close:focus {
   color: black;
   text-decoration: none;
