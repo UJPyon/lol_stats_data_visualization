@@ -26,20 +26,37 @@
     const masterJson = './match_data/master_match_data.json';
     const grandJson = './match_data/grandmaster_match_data.json';
     const challengerJson = './match_data/challenger_match_data.json';
+
+    let showrank = function(idName) {
+      document.getElementById(idName).style.display = "flex";
+    }
+
+    let hiderank = function(idName) {
+      document.getElementById(idName).style.display = "none";
+    }
   </script>
 
   <section class="main">
     <section>
       <div id="buttonSet1">
-        <img class="button active" src="./assets/images/button_iron.png" onclick="changeData(`${ironJson}`), updateGraph1(`${ironJson}`)">
-        <img class="button" src="./assets/images/button_bronze.png" onclick="changeData(`${bronzeJson}`), updateGraph1(`${bronzeJson}`)">
-        <img class="button" src="./assets/images/button_silver.png" onclick="changeData(`${silverJson}`), updateGraph1(`${silverJson}`)">
-        <img class="button" src="./assets/images/button_gold.png" onclick="changeData(`${goldJson}`), updateGraph1(`${goldJson}`)">
-        <img class="button" src="./assets/images/button_platinum.png" onclick="changeData(`${platJson}`), updateGraph1(`${platJson}`)">
-        <img class="button" src="./assets/images/button_diamond.png" onclick="changeData(`${diamondJson}`), updateGraph1(`${diamondJson}`)">
-        <img class="button" src="./assets/images/button_master.png" onclick="changeData(`${masterJson}`), updateGraph1(`${masterJson}`)">
-        <img class="button" src="./assets/images/button_grandmaster.png" onclick="changeData(`${grandJson}`), updateGraph1(`${grandJson}`)">
-        <img class="button" src="./assets/images/button_challenger.png" onclick="changeData(`${challengerJson}`), updateGraph1(`${challengerJson}`)">
+        <img class="button active" src="./assets/images/button_iron.png" onclick="changeData(`${ironJson}`), updateGraph1(`${ironJson}`)" onmouseover="showrank('txt-iron1')" onmouseout="hiderank('txt-iron1')">
+        <p id="txt-iron1" class="btn-txt m1-1" style="display: none">Iron</p>
+        <img class="button" src="./assets/images/button_bronze.png" onclick="changeData(`${bronzeJson}`), updateGraph1(`${bronzeJson}`)" onmouseover="showrank('txt-bronze1')" onmouseout="hiderank('txt-bronze1')">
+        <p id="txt-bronze1" class="btn-txt m1-2" style="display: none">Bronze</p>
+        <img class="button" src="./assets/images/button_silver.png" onclick="changeData(`${silverJson}`), updateGraph1(`${silverJson}`)" onmouseover="showrank('txt-silver1')" onmouseout="hiderank('txt-silver1')">
+        <p id="txt-silver1" class="btn-txt m1-3" style="display: none">Silver</p>
+        <img class="button" src="./assets/images/button_gold.png" onclick="changeData(`${goldJson}`), updateGraph1(`${goldJson}`)" onmouseover="showrank('txt-gold1')" onmouseout="hiderank('txt-gold1')">
+        <p id="txt-gold1" class="btn-txt m1-4" style="display: none">Gold</p>
+        <img class="button" src="./assets/images/button_platinum.png" onclick="changeData(`${platJson}`), updateGraph1(`${platJson}`)" onmouseover="showrank('txt-plat1')" onmouseout="hiderank('txt-plat1')">
+        <p id="txt-plat1" class="btn-txt m1-5" style="display: none">Platinum</p>
+        <img class="button" src="./assets/images/button_diamond.png" onclick="changeData(`${diamondJson}`), updateGraph1(`${diamondJson}`)" onmouseover="showrank('txt-diamond1')" onmouseout="hiderank('txt-diamond1')">
+        <p id="txt-diamond1" class="btn-txt m1-6" style="display: none">Diamond</p>
+        <img class="button" src="./assets/images/button_master.png" onclick="changeData(`${masterJson}`), updateGraph1(`${masterJson}`)" onmouseover="showrank('txt-master1')" onmouseout="hiderank('txt-master1')">
+        <p id="txt-master1" class="btn-txt m1-7" style="display: none">Master</p>
+        <img class="button" src="./assets/images/button_grandmaster.png" onclick="changeData(`${grandJson}`), updateGraph1(`${grandJson}`)" onmouseover="showrank('txt-gmaster1')" onmouseout="hiderank('txt-gmaster1')">
+        <p id="txt-gmaster1" class="btn-txt m1-8" style="display: none">Grandmaster</p>
+        <img class="button" src="./assets/images/button_challenger.png" onclick="changeData(`${challengerJson}`), updateGraph1(`${challengerJson}`)" onmouseover="showrank('txt-challenger1')" onmouseout="hiderank('txt-challenger1')">
+        <p id="txt-challenger1" class="btn-txt m1-9" style="display: none">Challenger</p>
       </div>
       <div id="map1" class="map1"></div>
     </section>
@@ -64,16 +81,6 @@
       </ul>
       <div id="barGraph2" class="barGraph2"></div>
     </section>
-
-    <script>
-      let showrank = function(idName) {
-        document.getElementById(idName).style.display = "flex";
-      }
-
-      let hiderank = function(idName) {
-        document.getElementById(idName).style.display = "none";
-      }
-    </script>
 
     <section>
       <div id="buttonSet2">
