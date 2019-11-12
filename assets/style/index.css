@@ -346,22 +346,69 @@ strong {
     display: block;
     height: 2px;
     width: 33px;
-    /* background:  */
 }
 
+.links {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
 
- .profile-icon {
-  width: 28px;
-  height: 28px;
+ .profile-icon-li {
+  width: 47px;
+  height: 47px;
+  opacity: .7;
+  transition: .2s;
+}
+
+.profile-icon-li:hover {
   opacity: 1;
   transition: .2s;
 }
 
-.profile-icon:hover {
+.profile-icon-li:focus {
+  opacity: 1;
+}
+
+ .profile-icon-gh {
+  width: 45px;
+  height: 45px;
   opacity: .7;
   transition: .2s;
 }
 
-.profile-icon:focus {
+.profile-icon-gh:hover {
+  opacity: 1;
+  transition: .2s;
+}
+
+.profile-icon-gh:focus {
+  opacity: 1;
+}
+
+ .profile-icon-al {
+  width: 43px;
+  height: 43px;
+  margin-left: 4px;
   opacity: .7;
+  transition: .2s;
+}
+
+.profile-icon-al:hover {
+  opacity: 1;
+  transition: .2s;
+}
+
+.profile-icon-al:focus {
+  opacity: 1;
+}
+
+.contact {
+  position: absolute;
+  left: 42px;
+  bottom: 95px;
+  color: #c6a874;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
