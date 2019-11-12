@@ -412,3 +412,90 @@ strong {
   font-size: 18px;
   font-weight: bold;
 }
+
+.btn-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  height: 20px;
+  padding: 0 6px;
+  transition: .2s;
+  position: absolute;
+  top: 123px;
+  border-radius: 2px;
+}
+
+.m1-1 {
+  left: 50px;
+}
+
+.m1-2 {
+
+}
+
+.m1-3 {
+
+}
+
+.m1-4 {
+
+}
+
+.m1-5 {
+
+}
+
+.m1-6 {
+
+}
+
+.m1-7 {
+
+}
+
+.m1-8 {
+
+}
+
+.m1-9 {
+
+}
+
+.m2-1 {
+  left: 1064px;
+}
+
+.m2-2 {
+  left: 1110px;
+}
+
+.m2-3 {
+  left: 1172px;
+}
+
+.m2-4 {
+  left: 1230px;
+}
+
+.m2-5 {
+  left: 1275px;
+}
+
+.m2-6 {
+  left: 1332px;
+}
+
+.m2-7 {
+  left: 1395px;
+}
+
+.m2-8 {
+  left: 1432px;
+}
+
+.m2-9 {
+  left: 1495px;
+}
