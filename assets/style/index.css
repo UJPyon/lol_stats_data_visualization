@@ -346,5 +346,22 @@ strong {
     display: block;
     height: 2px;
     width: 33px;
-    background: 
+    /* background:  */
+}
+
+
+ .profile-icon {
+  width: 28px;
+  height: 28px;
+  opacity: 1;
+  transition: .2s;
+}
+
+.profile-icon:hover {
+  opacity: .7;
+  transition: .2s;
+}
+
+.profile-icon:focus {
+  opacity: .7;
 }
