@@ -282,6 +282,10 @@ strong {
   cursor: pointer;
 }
 
+.close1:hover {
+  cursor: pointer;
+}
+
 .close:hover, .close:focus {
   color: black;
   text-decoration: none;
