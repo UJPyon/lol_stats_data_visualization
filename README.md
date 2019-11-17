@@ -1,5 +1,7 @@
 # League Ward Placement Data Visualization
 
+![lol_stats](assets/images/lol-data-vis-readme-1.gif)
+
 ## Background and Overview
   * Motivation for project
     * League of Legends is one of my favorite games to play; it's a fun, competitive game that requires skill, teamwork, and strategy to win. It also presents an excellent opportunity to analyze data from winning teams to observe how players of different levels of skill perform within the early stages of a game.
@@ -8,7 +10,7 @@
 
 ## Functionality and MVP Features
   * Users will be able to:
-    * Switch between comarisons of all 9 rank tiers to see how the map data changes over different levels of competitive play
+    * Switch between comparisons of all 9 rank tiers to see how the map data changes over different levels of competitive play
     * See a comparison of two heat/density maps of all player deaths on the game map by two different tier classes within the first 15 minutes of the match
     * See two sets of buttons available to toggle which league division's stats are being displayed
     * See a bar graph of average game statistics for that division (average towers destroyed, total gold, wards placed, lane minions killed, and jungle minions killed)
