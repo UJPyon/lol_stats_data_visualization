@@ -11,6 +11,7 @@ http://www.unjaepyon.com/lol_stats_data_visualization/
 ## Technologies Used
   * JavaScript v9
   * D3.js v5.12.0
+  * Webpack v4.32.2
   * Riot Games Public API
 
 ## Highlighted Features
@@ -72,17 +73,10 @@ http://www.unjaepyon.com/lol_stats_data_visualization/
   * User will see a bar graph of average game statistics for that league (average towers destroyed, total gold, wards placed, lane minions killed, and jungle minions killed).
   * There are 2 buttons located at the center of the app that open modals witha  brief explanation of what League of Legends is and what is being displayed.
 
-## Wireframes
-  * The app will consist of two top-down maps of the game at the bottom with two separate line graphs (one for data on each tier). There will be a navbar above each map of all the league tiers to change the data being visualized in both the line graphs and game map. 
+## Wireframe
+  * The app will consist of two top-down maps of the game at the bottom with two separate line graphs (one for data on each tier). There will be a navbar above each map of all the league tiers to change the data being visualized in both the bar graphs and game map. 
 
   ![lol data visualization wireframe](assets/images/lol_stats_data_visualization_wireframe.png)
-
-## Architecture and Technologies
-  * This project will implement the following technologies:
-    * Vanilla JavaScript for data management
-    * Riot Games Developer API used for fetching relevant game data 
-    * D3 JavaScript library to visualize the game data
-    * Webpack to bundle up and present the various javascript files
 
 ## Implementation Timeline
   * Oct 14 - Oct 15:
