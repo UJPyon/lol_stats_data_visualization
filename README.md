@@ -2,13 +2,18 @@
 
 ![lol_stats](assets/images/lol-data-vis-readme-1.gif)
 
-## Background and Overview
-  * Motivation for project
-    * League of Legends is one of my favorite games to play; it's a fun, competitive game that requires skill, teamwork, and strategy to win. It also presents an excellent opportunity to analyze data from winning teams to observe how players of different levels of skill perform within the early stages of a game.
-  * High level overview
-    * Users will be able to review and observe patterns of player deaths in the first 15 minutes in a sample selection of matches ranging from the lowest tier of ranked play (iron tier) to the highest level tier (challenger tier). This mapping of data will hopefully show how locations and statistics differ from low-level play vs. high level play. The breakdown of average stats per game, such as total gold earned, wards placed, and towers destroy on the map will also be graphed to show the differences in numbers of how different level divisions perform within the early stages of the game. 
+League of Legends is a competitive, 5 vs 5 online game that requires skill, teamwork, and strategy to outwit and destroy the opposing team's base. This project aims to present specific statistics of the first 15 minutes (or 'early game' phase) in a sample selection of matches ranging from the lowest tier of ranked play (iron tier) to the highest level tier (challenger tier). 
+A map of player deaths and the breakdown of average stats per game, such as total gold earned, wards placed, and towers destroyed presents the differences in numbers of how different level divisions perform within the early stages of the game.
 
-## Functionality & Features
+Check out the live version here:
+http://www.unjaepyon.com/lol_stats_data_visualization/
+
+## Technologies Used
+  * JavaScript v9
+  * D3.js v5.12.0
+  * Riot Games Public API
+
+## Highlighted Features
   * Users can switch between comparisons of league datasets via 2 sets of buttons to see how the map data changes over different levels of competitive play. This required creating a method that kept track of which button was currently selected. This was done by adding an 'active' class to whichever button had been last clicked and removing it from the previous active button:
   ```javascript
   const iconContainer1 = document.getElementById("buttonSet1");
@@ -80,16 +85,16 @@
     * Webpack to bundle up and present the various javascript files
 
 ## Implementation Timeline
-  * Day 1:
+  * Oct 14 - Oct 15:
     * Set up project skeleton (set up webpack, index files)
     * Learn how to pull data through Riot Games match data API
     * Go over how to map data via D3 tutorials
-  * Day 2:
+  * Oct 15 - Oct 17:
     * Shape JSON information to retrieve only data relevant to player death locations and relevant game stats
     * Learn how to utilize D3 library to map ward location data onto game map via a heat map or density map
-  * Day 3:
-    * Retrieve JSON information to create line graphs of relevant team data 
-    * Extend line graph to include individual role vision contribution data
-  * Day 4:
+  * Oct 17 - Oct 20:
+    * Retrieve JSON information to create bar graphs of relevant team data 
+    * Create bar graph to include individual role vision contribution data
+  * Oct 20 - 22:
     * Split up data by ranked tiers
     * Stylize and improve visuals of graphs
