@@ -1,4 +1,4 @@
-# League Ward Placement Data Visualization
+# League Statistics Data Visualization
 
 ![lol_stats](assets/images/lol-data-vis-readme-1.gif)
 
